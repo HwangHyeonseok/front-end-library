@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>나의 첫 번째 C3.js 차트</title>
+
+  <!-- D3.js 먼저 불러오기 (C3.js가 이걸 기반으로 작동해요) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+
+  <!-- C3.js 불러오기 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 50px;
+    }
+
+    /* x축 레이블 글씨 크기 조정(아래쪽 텍스트) */
+  .c3-axis-x-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* y축 레이블 글씨 크기 조정(왼쪽 텍스트) */
+  .c3-axis-y-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.c3-lines path.c3-line {
+  stroke-dasharray: 4,2; /* 점선 효과 */
+}
+  </style>
+</head>
+<body>
+
+  <h2>📊 나의 첫 번째 C3.js 차트</h2>
+
+  <!-- 차트를 그릴 영역 -->
+  <div id="chart"></div>
+
+  <!-- 차트를 만드는 JavaScript 코드 -->
+  <script>
+  </script>
+
+</body>
+</html>

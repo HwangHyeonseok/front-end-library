@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+/* x축 레이블 글씨 크기 조정(아래쪽 텍스트) */
+.c3-axis-x-label {
+font-size: 18px;
+font-weight: bold;
+}
+
+/* y축 레이블 글씨 크기 조정(왼쪽 텍스트) */
+.c3-axis-y-label {
+font-size: 18px;
+font-weight: bold;
+}
+
+.c3-lines path.c3-line {
+stroke-dasharray: 4,2; /* 점선 효과 */
+}

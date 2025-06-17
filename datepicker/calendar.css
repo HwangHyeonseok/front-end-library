@@ -1,0 +1,16 @@
+.datepicker-dropdown {
+  transform: scale(1.2);
+  transform-origin: top left;
+}
+
+.datepicker table tr td,
+.datepicker table tr th {
+  padding: 12px;
+  font-size: 11px;
+}
+
+#datepicker, #yearpicker {
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}

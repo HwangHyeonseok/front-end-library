@@ -14,3 +14,7 @@
   font-size: 14px;
   text-align: center;
 }
+
+.datepicker {
+  z-index: 9999; /* 다른 요소 위에 뜨게 */
+}
